@@ -1,4 +1,4 @@
-package ca.uwo.csd.cs2212.jshantz4;
+package ca.uwo.csd.cs2212.kristy;
 
 public class BankAccount {
 
