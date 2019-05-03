@@ -15,10 +15,15 @@ sudo apt-get install jenkins
 
 Installing and Configuring Apache
 Installing Apache
+
 sudo apt-get install apache2
+
 sudo a2enmod proxy
+
 sudo a2enmod proxy_http
+
 /etc/apache2/sites-available/jenkins.conf
+
 <VirtualHost *:80>
 	ServerName HOSTNAME
 	ProxyRequests Off
